@@ -125,4 +125,4 @@ if __name__ == "__main__":
             notifySlack(newHosts, leftHosts, activeHosts - leftHosts)
 
         activeHosts = recognizedHosts
-        time.sleep(20)
+        time.sleep(300)
